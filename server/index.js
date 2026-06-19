@@ -6,6 +6,11 @@ const fs= require('fs');
 //after that go to script in package.json and write "start": "node index.js"
 
 const myServer= http.createServer((req, res)=>{
+    // Every time a client sends a request,
+  // this callback runs once.
+ //
+// req -> information sent by client
+// res -> used to send data back to client
     // console.log(req.headers);
     // console.log(req); //this object  give full information about your user like from which computer he use what type of request he gave etc etc....
     // const log=`${Date.now()} : New req\n`; //this is simple way
@@ -13,6 +18,7 @@ const myServer= http.createServer((req, res)=>{
     const log = `${Date.now()} : ${req.url} New req\n`;
 
     fs.appendFile("log.txt",log,(err,data)=>{ //this will create a new file 
+        //appendFile does NOT overwrite.
         // res.end("Hello form server again");
 
         switch(req.url){
@@ -30,7 +36,7 @@ const myServer= http.createServer((req, res)=>{
     //now if in borwser you write localhost:8000 then it give home page 
     //ig you write localhost:8000/about
      //amnd also log txt file will also get upadte time to time
-     
+
 
 
 });
