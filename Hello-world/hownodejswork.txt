@@ -1,0 +1,37 @@
+so here we study how node js is work 
+
+so first client send a request to server. server can be node js or any other 
+afeter that server has queue data structure in which requext will be strore 
+
+we have event loop in server which check that is there any request in queue or not if queue has 
+then it will take that request by first in first out 
+
+ab now the request that has taken from queue is of two type
+1-Blocking Operation(synchronous task)
+2-Non Blocking Operation(non synchronous task)
+
+
+
+now if it will non blocking operation then event loop will do just take from the loop and process and send back response to client
+
+but if it will blocking operation then 
+
+then task will go to thread pool and if threa pool has thread or worker then 
+it will asign for the task and return the result
+
+
+//so that means non blocking operayion is good as compared to blocking operstion
+
+
+so how can we check means how can it block so for thaat i will make a new file so that we can understand in more depth
+file name is check in hello-world
+
+
+//one most important thing is 
+by deafult there are 4 total thread present in thread pool
+you can also increase till total number of cpu cores present in your rented server
+for example 8 core cpu then we will make 8 thread
+
+//if i want to check in our computer then 
+ const os=require("os");
+ console.log(os.cpus().length);
