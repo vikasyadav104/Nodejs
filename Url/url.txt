@@ -1,0 +1,27 @@
+               URL
+                |
+                |
+  FOR EX--  httsps://www.piyushgarg.dev/          
+              |
+              |
+        this https is called prototype
+        full form  is hypertext transfer protocol secure
+
+
+www.piyushgarg.dev/  -> and this part is domain(User friendly Name of IP address of my Server)
+beacuse we know that we never learn the ip address so it is friendly Name of IP address
+
+and the last part / -> this is called path: / (Homepage)
+
+   So there are many paths for example;-
+
+    1- piushgarg.dev/contact-Us
+    2-piushgarg.dev/about etc etc..
+
+    QUERY PARAMETER
+       |
+       |
+       |
+  https://www.youtube.com/watch?v=Nt-AsZh5woE&list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo&index=11
+  in this URL what i see here is after watch ?v=nt......... this something starts so that is called Query PARAMETER
+               
