@@ -1,0 +1,26 @@
+REST API- Json
+
+GET /users- List all users
+GET /users- List all users -- it is in html document
+but if i use GET /api/users- List all users then it will deliver in json
+//so for app in mobile also wee will use /api/users
+
+
+GET /api/users/1 -GET the user with ID 1
+GET /api/users/2 -Get the user with ID 2
+
+here id is dynamic so it is written as 
+GET /api/users/:id
+
+POST /api/users- Create new user
+
+PATCH /api/users/1 -Edit the user with ID 1
+
+DELETE /api/users/1 -Delete the user with ID 1
+
+\
+
+//noew for this task wee need some users but currently we have no users 
+so we will visite a website called mockaro.com
+
+it will generate fake data

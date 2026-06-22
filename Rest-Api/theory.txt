@@ -1,0 +1,38 @@
+Here we are going to study about Restfull api
+
+so lets say i made a server in which cliet send request and server return back response 
+response can be anything like it can be text images html document Json etc 
+
+Lets say clietSend get req for blogs then you will start fetching data base from your serverr
+and then you make this response into html document. and then ig cliet is browser then he will not face any difficulty to render the html document
+ but what about mobile, alexa etc. ofv they willl not render also the html we send is called SSR(server side rendering) 
+
+ secondly response in form of Json
+ so in this server give response in the form of json(row data) then cliet(bowser, mobile phone) can render Json easily 
+ so this data can be handle by browserr as well as mobile phome
+
+
+ so when we give response in html or in json?
+ A simple ans is when we know that we 100% sure that our cliet will be bowser then go with html document because it is fast
+ but if we are not sure that what type of client is then go with json 
+
+
+ ALWAYS RESPECT ALL HTTP METHODS
+LIKE GET, POST, PUT, PATCH, DELETE
+
+GET/user - users data read kro and return data
+POST/user - handle new user creation
+PATCH/ user -update the user
+
+one thing also if i use
+
+post/ updateUser - then it will update user
+post/ createUser- creatwe
+
+but last 2 is good practice? nooooooooooo
+if we have simply patch then why would i use this
+
+
+so these are the practice make rest api
+
+  
