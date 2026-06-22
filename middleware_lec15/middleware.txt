@@ -1,0 +1,26 @@
+LETS START ABOUT MIDDLEWARE
+
+so in   server 
+A cliet send req to server and in server we made a function like
+app.get(/user) like so it return simply response
+
+now in some code middleware is work like intermediate between cliet and server 
+so from cliet first req goes to middleware and then server 
+
+middleware can also check that is this req valid or invalid like
+if it is invalid then it will not pass through it return back from the middleware
+
+
+there can be multiple middleware in one code
+
+like client---> middleware1---> middleware2--->m3----> server
+
+so what do these midleware have different task
+for ex m1 check that is it authorised like is it come from any hacker
+so if not then it will pass to m2 then it check if it is banking application
+then it check is password and username matches or not if yes then it pases to m3
+
+and if m3 also pass then req will pass to server and then server give res to client
+so yes middleware work as plugin
+
+also we can read about it more by express.js websitr
