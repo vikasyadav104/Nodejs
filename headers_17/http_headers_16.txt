@@ -1,0 +1,14 @@
+HTTP_HEADER---->
+
+lets take an example let we have person A and person B
+then person A is trying to send letter to person B then how will he send 
+means what information person A need so that letter can reach to person B
+
+So information is ip address of senders and ip address of reciever. and also weight of letter
+
+"For communication between a client and a server, IP addresses are used by the network to deliver the request.
+ Along with the request, HTTP sends headers, which contain metadata (extra information) about the request, 
+ and a body, which contains the actual data."
+
+
+//now you can also create headers by yourself
