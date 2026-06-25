@@ -1,0 +1,26 @@
+                     MONGODB
+                         |
+                         |
+                         |
+           1- No SQL Based Database
+           2- Strong Support Aggregation Pipes
+           3- Works on BSON format
+           4- Best for Node Applications
+
+    ///ARCHITECTURE OF MONGODB
+
+    MongoDB has collection of users it also have documents
+    like document 1 document 2.....  
+
+   Steps for installation and setup of MongoDB
+
+   step1- Search install mongo db on gooogle  
+    after download just install mongo int file 
+    so firstly npm init then install express and then mongo by npm i mongoose
+
+
+steps for monogodb structure
+
+Schema ---> (Define the structure)
+Schema - Model
+Using Model we do CRUD operation
