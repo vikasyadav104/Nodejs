@@ -17,7 +17,7 @@ async function handlegenerateNewShortURL(req, res){
         visitHistory: [],
   })
 
-  return res.json({id :shortID});
+  return res.json({id :shortID}); //this will return response back to cliet means short id
 
 
 
