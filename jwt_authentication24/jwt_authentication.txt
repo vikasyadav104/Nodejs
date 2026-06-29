@@ -1,0 +1,8 @@
+firstly Why jwt_authentication use here 
+
+--> in authentication when  refrwsh the page the user will automatically log out 
+so jwt_authentication  come into picture
+
+//firstly install the jwt suthentiction toke by 
+npm i jsonwebtoken
+in jwt authentication there is no mapping like authentication  so here mapping in  service/auth will  get finish
