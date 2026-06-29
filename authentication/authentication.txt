@@ -1,0 +1,50 @@
+ALL ABOUT AUTHENTICATION-->
+
+AUTHENTICATION patterns are of two types 
+1- Statefull-> which maintain state or data or server side
+2-StateLess-> Which has no state
+
+now lets learn Statefull-->
+
+So lets take an example if i have a car any i go to mall by my 
+car. now I search for Parking.. so i will go to parking boy for parking
+so parking boy park the car. and give me reciept which have some number.
+and parking boy mention then number with my car number.
+actually, it map then number with car number..
+
+so after finish the work i goto parking boy and asking for my car after giving that reciepot that parking boy gave to me
+so he give me keys and cut that mention from also his diary....
+
+so, what happen is client eneter id and password on server then server return an unique id,
+and then client communicate to server by that id
+
+so how to tranfer uid(unique id) by
+1-cookies
+2-response
+3-headers
+
+usually in rest api we use headers but for browser we use cookies
+
+
+//now in express flow of Statefull
+
+first client------> Auth Middleware --------->endpoint route
+             (check for cookie value or 
+            uid, if valid calls next() else 
+            rejects the request)
+
+
+
+
+
+here i come after complete this project so in this project for two account data will chanage for example
+
+
+if for two account like for login account A has some email and account B has some other email then after login both acc can access only 
+thier data like no outsider can see my data...
+
+
+
+  
+
+ 
