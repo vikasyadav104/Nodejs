@@ -32,6 +32,8 @@ first client------> Auth Middleware --------->endpoint route
              (check for cookie value or 
             uid, if valid calls next() else 
             rejects the request)
+        
+
 
 
 
@@ -42,6 +44,11 @@ here i come after complete this project so in this project for two account data 
 
 if for two account like for login account A has some email and account B has some other email then after login both acc can access only 
 thier data like no outsider can see my data...
+
+
+//now the main issue init is if i referesh the page user will get logout 
+//so for that we have stateless AUTHENTICATION
+
 
 
 
